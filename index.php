@@ -1,15 +1,11 @@
 <?php
 
 session_start();
-
 include("includes/db.php");
 include("includes/header.php");
 include("functions/functions.php");
 include("includes/main.php");
-
 ?>
-
-
   <!-- Cover -->
   <main>
     <div class="hero">
@@ -18,20 +14,14 @@ include("includes/main.php");
     </div>
     <!-- Main -->
     <div class="wrapper">
-            <h1>Featured Collection<h1>
-            
+            <h1>Featured Collection<h1>      
       </div>
 
-
-
     <div id="content" class="container"><!-- container Starts -->
-
     <div class="row"><!-- row Starts -->
 
     <?php
-
     getPro();
-
     ?>
 
     </div><!-- row Ends -->
@@ -109,7 +99,6 @@ include("includes/main.php");
             </ul>
           </div>
 
-
           <div class="footer-nav__col footer-nav__col--contacts">
             <div class="footer-nav__heading">Contact details</div>
             <address class="address">
@@ -128,31 +117,6 @@ include("includes/main.php");
 
         </div>
       </div>
-
-      <!-- <div class="banners">
-        <div class="container clearfix">
-
-          <div class="banner-award">
-            <span>Award winner</span><br> Fashion awards 2016
-          </div>
-
-          <div class="banner-social">
-            <a href="#" class="banner-social__link">
-            <i class="icon-facebook"></i>
-          </a>
-            <a href="#" class="banner-social__link">
-            <i class="icon-twitter"></i>
-          </a>
-            <a href="#" class="banner-social__link">
-            <i class="icon-instagram"></i>
-          </a>
-            <a href="#" class="banner-social__link">
-            <i class="icon-pinterest-circled"></i>
-          </a>
-          </div>
-
-        </div>
-      </div> -->
 
       <div class="page-footer__subline">
         <div class="container clearfix">

@@ -50,7 +50,7 @@ include("includes/main.php");
           <div class="table-responsive">
 
             <table class="table">
-              < <thead><!-- thead Starts -->
+              < <thead>
 
                 <tr>
 
@@ -69,9 +69,9 @@ include("includes/main.php");
 
                 </tr>
 
-                </thead><!-- thead Ends -->
+                </thead>
 
-                <tbody><!-- tbody Starts -->
+                <tbody>
 
                   <?php
 
@@ -105,7 +105,7 @@ include("includes/main.php");
 
                   ?>
 
-                      <tr><!-- tr Starts -->
+                      <tr>
 
                         <td>
 
@@ -145,14 +145,14 @@ include("includes/main.php");
 
                         </td>
 
-                      </tr><!-- tr Ends -->
+                      </tr>
 
                   <?php }
                   } ?>
 
-                </tbody><!-- tbody Ends -->
+                </tbody>
 
-                <tfoot><!-- tfoot Starts -->
+                <tfoot>
 
                   <tr>
 
@@ -162,30 +162,30 @@ include("includes/main.php");
 
                   </tr>
 
-                </tfoot><!-- tfoot Ends -->
+                </tfoot>
 
-            </table><!-- table Ends -->
+            </table>
 
-            <div class="form-inline pull-right"><!-- form-inline pull-right Starts -->
+            <div class="form-inline pull-right">
 
-              <div class="form-group"><!-- form-group Starts -->
+              <div class="form-group">
 
                 <label>Coupon Code : </label>
 
                 <input type="text" name="code" class="form-control">
 
-              </div><!-- form-group Ends -->
+              </div>
 
               <input class="btn btn-primary" type="submit" name="apply_coupon" value="Apply Coupon Code">
 
-            </div><!-- form-inline pull-right Ends -->
+            </div>
 
-          </div><!-- table-responsive Ends -->
+          </div>
 
 
-          <div class="box-footer"><!-- box-footer Starts -->
+          <div class="box-footer">
 
-            <div class="pull-left"><!-- pull-left Starts -->
+            <div class="pull-left">
 
               <a href="index.php" class="btn btn-default">
 
@@ -193,9 +193,9 @@ include("includes/main.php");
 
               </a>
 
-            </div><!-- pull-left Ends -->
+            </div>
 
-            <div class="pull-right"><!-- pull-right Starts -->
+            <div class="pull-right">
 
               <button class="btn btn-default" type="submit" name="update" value="Update Cart">
 
@@ -209,14 +209,14 @@ include("includes/main.php");
 
               </a>
 
-            </div><!-- pull-right Ends -->
+            </div>
 
-          </div><!-- box-footer Ends -->
+          </div>
 
-        </form><!-- form Ends -->
+        </form>
 
 
-      </div><!-- box Ends -->
+      </div>
 
       <?php
 
@@ -317,17 +317,17 @@ include("includes/main.php");
 
 
 
-      <div id="row same-height-row"><!-- row same-height-row Starts -->
+      <div id="row same-height-row">
 
-        <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Starts -->
+        <div class="col-md-3 col-sm-6">
 
-          <div class="box same-height headline"><!-- box same-height headline Starts -->
+          <div class="box same-height headline">
 
             <h3 class="text-center"> You also like these Products </h3>
 
-          </div><!-- box same-height headline Ends -->
+          </div>
 
-        </div><!-- col-md-3 col-sm-6 Ends -->
+        </div>
 
         <?php
 
@@ -449,30 +449,30 @@ $product_label
         ?>
 
 
-      </div><!-- row same-height-row Ends -->
+      </div>
 
 
-    </div><!-- col-md-9 Ends -->
+    </div>
 
-    <div class="col-md-3"><!-- col-md-3 Starts -->
+    <div class="col-md-3">
 
-      <div class="box" id="order-summary"><!-- box Starts -->
+      <div class="box" id="order-summary">
 
-        <div class="box-header"><!-- box-header Starts -->
+        <div class="box-header">
 
           <h3>Order Summary</h3>
 
-        </div><!-- box-header Ends -->
+        </div>
 
         <p class="text-muted">
           Shipping and additional costs are calculated based on the values you have entered.
         </p>
 
-        <div class="table-responsive"><!-- table-responsive Starts -->
+        <div class="table-responsive">
 
-          <table class="table"><!-- table Starts -->
+          <table class="table">
 
-            <tbody><!-- tbody Starts -->
+            <tbody>
 
               <tr>
 
@@ -506,18 +506,18 @@ $product_label
 
               </tr>
 
-            </tbody><!-- tbody Ends -->
+            </tbody>
 
-          </table><!-- table Ends -->
+          </table>
 
-        </div><!-- table-responsive Ends -->
+        </div>
 
-      </div><!-- box Ends -->
+      </div>
 
-    </div><!-- col-md-3 Ends -->
+    </div>
 
-  </div><!-- container Ends -->
-</div><!-- content Ends -->
+  </div>
+</div>
 
 
 

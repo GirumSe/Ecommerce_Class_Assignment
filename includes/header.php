@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto" rel="stylesheet">
@@ -14,4 +13,3 @@
   <link href="styles/style.css" rel="stylesheet">
 
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-

@@ -22,9 +22,7 @@ $aMan[(int)$sVal] = (int)$sVal;
 }
 
 /// Manufacturers Code Ends ///
-
 /// Products Categories Code Starts ///
-
 if(isset($_REQUEST['p_cat'])&&is_array($_REQUEST['p_cat'])){
 
 foreach($_REQUEST['p_cat'] as $sKey=>$sVal){
@@ -32,36 +30,24 @@ foreach($_REQUEST['p_cat'] as $sKey=>$sVal){
 if((int)$sVal!=0){
 
 $aPCat[(int)$sVal] = (int)$sVal;
-
+                }
+    }
 }
-
-}
-
-}
-
 /// Products Categories Code Ends ///
-
 /// Categories Code Starts ///
-
 if(isset($_REQUEST['cat'])&&is_array($_REQUEST['cat'])){
 
-foreach($_REQUEST['cat'] as $sKey=>$sVal){
+  foreach($_REQUEST['cat'] as $sKey=>$sVal){
+    if((int)$sVal!=0){
+      
+      $aCat[(int)$sVal] = (int)$sVal;
+    }
 
-if((int)$sVal!=0){
-
-$aCat[(int)$sVal] = (int)$sVal;
-
-}
-
-}
+  }
 
 }
-
 /// Categories Code Ends ///
-
-
 ?>
-
 <div class="panel panel-default sidebar-menu"><!-- panel panel-default sidebar-menu Starts -->
 
 <div class="panel-heading"><!-- panel-heading Starts -->
@@ -69,7 +55,6 @@ $aCat[(int)$sVal] = (int)$sVal;
 <h3 class="panel-title"><!-- panel-title Starts -->
 
 Manufacturers
-
 <div class="pull-right"><!-- pull-right Starts -->
 
 <a href="#" style="color:black;">

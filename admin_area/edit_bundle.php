@@ -434,16 +434,16 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </textarea>
 
-</div><!-- video tab-pane fade in Ends -->
+</div>
 
-
-</div><!-- tab-content Ends -->
 
 </div>
 
-</div><!-- form-group Ends -->
+</div>
 
-<div class="form-group" ><!-- form-group Starts -->
+</div>
+
+<div class="form-group" >
 
 <label class="col-md-3 control-label" > Bundle Label </label>
 
@@ -453,9 +453,9 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div>
 
-</div><!-- form-group Ends -->
+</div>
 
-<div class="form-group" ><!-- form-group Starts -->
+<div class="form-group" >
 
 <label class="col-md-3 control-label" ></label>
 
@@ -465,17 +465,17 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div>
 
-</div><!-- form-group Ends -->
+</div>
 
-</form><!-- form-horizontal Ends -->
+</form>
 
-</div><!-- panel-body Ends -->
+</div>
 
-</div><!-- panel panel-default Ends -->
+</div>
 
-</div><!-- col-lg-12 Ends -->
+</div>
 
-</div><!-- 2 row Ends --> 
+</div>
 
 
 

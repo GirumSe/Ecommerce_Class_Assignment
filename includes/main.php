@@ -1,7 +1,6 @@
 </head>
-
 <body>
-
+  
   <header class="page-header">
     <!-- topline -->
     <div class="page-header__topline">
@@ -27,8 +26,7 @@
             <?php items(); ?> items
           </a>
         </div>
-        
-        
+              
         <ul class="login">
 
 <li class="login__item">
@@ -135,12 +133,8 @@ if(!isset($_SESSION['customer_email'])){
                     </ul>
                   </div>
                 </div>
-             
-
               </div>
-
             </li>
-
           </ul>
         </nav>
       </div>

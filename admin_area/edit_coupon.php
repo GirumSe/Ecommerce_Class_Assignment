@@ -78,7 +78,7 @@ $product_title = $row_products['product_title'];
 
 <h3 class="panel-title">
 
-<i class="fa fa-money fa-fw"> </i> Edit Coupon
+<i class="fa fa-money fa-fw">
 
 </h3>
 

@@ -177,7 +177,7 @@ include("includes/main.php");
 
       $msg = "I shall get you soon, thanks for sending us email";
 
-      $from = "sad.ahmed22224@gmail.com";
+      $from = "hailehailu1990@gmail.com";
 
       mail($email, $subject, $msg, $from);
 

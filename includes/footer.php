@@ -68,12 +68,11 @@
 				</ul>
 			</div>
 
-
 			<div class="footer-nav__col footer-nav__col--contacts">
 				<div class="footer-nav__heading">Contact details</div>
 				<address class="address">
-				Head Office: Avenue Fashion.<br>
-				180-182 Regent Street, London.
+				Head Office: BGAD Fashion.<br>
+				Adama, Ethiopia.
 			</address>
 				<div class="phone">
 					Telephone:
@@ -88,42 +87,20 @@
 		</div>
 	</div>
 
-	<!-- <div class="banners">
-		<div class="container clearfix">
-			<div class="banner-award">
-				<span>Award winner</span><br> Fashion awards 2016
-			</div>
-			<div class="banner-social">
-				<a href="#" class="banner-social__link">
-				<i class="icon-facebook"></i>
-			</a>
-				<a href="#" class="banner-social__link">
-				<i class="icon-twitter"></i>
-			</a>
-				<a href="#" class="banner-social__link">
-				<i class="icon-instagram"></i>
-			</a>
-				<a href="#" class="banner-social__link">
-				<i class="icon-pinterest-circled"></i>
-			</a>
-			</div>
-
-		</div>
-	</div> -->
 
 	<div class="page-footer__subline">
 		<div class="container clearfix">
 
 			<div class="copyright">
-				&copy; 2018 Avenue Fashion&trade;
+				&copy; 2023 BGAD Fashion&trade;
 			</div>
 
 			<div class="developer">
-				Dev by Yasser Dalouzi
+				Dev by BGAD
 			</div>
 
 			<div class="designby">
-				Design by Yasser Dalouzi
+				Design by BGAD
 			</div>
 		</div>
 	</div>

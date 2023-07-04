@@ -1,8 +1,6 @@
 **Database Name: ecom_store**
 
-**Developed by BGAD**
-
-**Recommended PHP Version 5.6 and Newer**
+**Developed by BGAD
 
 
 **Admin Panel: /admin_area **

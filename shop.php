@@ -22,40 +22,39 @@ include("includes/main.php");
 
 
 <div id="content"><!-- content Starts -->
-  <div class="container"><!-- container Starts -->
-
-    <div class="col-md-12">
-
-
-
-    </div><!--- col-md-12 Ends -->
-
-    <div class="col-md-3"><!-- col-md-3 Starts -->
-
-      <?php include("includes/sidebar.php"); ?>
-
-    </div><!-- col-md-3 Ends -->
-
-    <div class="col-md-9"><!-- col-md-9 Starts --->
-
-
-      <?php getProducts(); ?>
-
-    </div><!-- row Ends -->
-
-    <center><!-- center Starts -->
-
-      <ul class="pagination"><!-- pagination Starts -->
-
-        <?php getPaginator(); ?>
-
-      </ul><!-- pagination Ends -->
-
-    </center><!-- center Ends -->
+  <div class="container">
+    < <div class="col-md-12">
 
 
 
-  </div><!-- col-md-9 Ends --->
+  </div><!--- col-md-12 Ends -->
+
+  <div class="col-md-3"><!-- col-md-3 Starts -->
+
+    <?php include("includes/sidebar.php"); ?>
+
+  </div><!-- col-md-3 Ends -->
+
+  <div class="col-md-9"><!-- col-md-9 Starts --->
+
+
+    <?php getProducts(); ?>
+
+  </div><!-- row Ends -->
+
+  <center><!-- center Starts -->
+
+    <ul class="pagination"><!-- pagination Starts -->
+
+      <?php getPaginator(); ?>
+
+    </ul><!-- pagination Ends -->
+
+  </center><!-- center Ends -->
+
+
+
+</div><!-- col-md-9 Ends --->
 
 
 

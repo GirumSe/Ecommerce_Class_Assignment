@@ -54,45 +54,41 @@ $product_title = $row_products['product_title'];
 
 ?>
 
-<div class="row"><!-- 1 row Starts -->
-
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
-
-<ol class="breadcrumb"><!-- breadcrumb Starts -->
-
+<div class="row">
+<div class="col-lg-12">
+<ol class="breadcrumb">
 <li class="active">
 
 <i class="fa fa-dashboard"> </i> Dashboard / Edit Coupon
 
 </li>
 
-</ol><!-- breadcrumb Ends -->
+</ol>
 
-</div><!-- col-lg-12 Ends -->
+</div>
+</div>
 
-</div><!-- 1 row Ends -->
+<div class="row">
 
-<div class="row"><!-- 2 row Starts --->
+<div class="col-lg-12">
 
-<div class="col-lg-12"><!-- col-lg-12 Starts -->
+<div class="panel panel-default">
 
-<div class="panel panel-default"><!-- panel panel-default Starts -->
+<div class="panel-heading">
 
-<div class="panel-heading"><!-- panel-heading Starts -->
-
-<h3 class="panel-title"><!-- panel-title Starts -->
+<h3 class="panel-title">
 
 <i class="fa fa-money fa-fw"> </i> Edit Coupon
 
-</h3><!-- panel-title Ends -->
+</h3>
 
-</div><!-- panel-heading Ends -->
+</div>
 
-<div class="panel-body"><!--panel-body Starts -->
+<div class="panel-body">
 
-<form class="form-horizontal" method="post" action=""><!-- form-horizontal Starts -->
+<form class="form-horizontal" method="post" action="">
 
-<div class="form-group" ><!-- form-group Starts -->
+<div class="form-group" >
 
 <label class="col-md-3 control-label"> Coupon Title </label>
 
@@ -197,10 +193,9 @@ echo "<option value='$p_id'> $p_title </option>";
 
 </div>
 
-</div><!-- form-group Ends -->
+</div>
 
-<div class="form-group" ><!-- form-group Starts -->
-
+<div class="form-group" >
 <label class="col-md-3 control-label"> </label>
 
 <div class="col-md-6">
@@ -209,17 +204,14 @@ echo "<option value='$p_id'> $p_title </option>";
 
 </div>
 
-</div><!-- form-group Ends -->
+</div>
 
-</form><!-- form-horizontal Ends -->
+</form>
 
-</div><!--panel-body Ends -->
-
-</div><!-- panel panel-default Ends -->
-
-</div><!-- col-lg-12 Ends -->
-
-</div><!-- 2 row Ends --->
+</div>
+</div>
+</div>
+</div>
 
 <?php
 

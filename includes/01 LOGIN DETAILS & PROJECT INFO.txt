@@ -5,7 +5,7 @@
 
 **Recommended PHP Version 5.6 and 
 
-**Admin Panel: /admin_area **
+
 
 **Admin Login Details**
 

@@ -355,12 +355,12 @@ $customer_confirm_code = mt_rand();
 
 $subject = "Email Confirmation Message";
 
-$from = "sad.ahmed22224@gmail.com";
+$from = "hailehailu1990@gmail.com";
 
 $message = "
 
 <h2>
-Email Confirmation By Computerfever.com $c_name
+Email Confirmation By BGAD PLC.com $c_name
 </h2>
 
 <a href='localhost/ecom_store/customer/my_account.php?$customer_confirm_code'>

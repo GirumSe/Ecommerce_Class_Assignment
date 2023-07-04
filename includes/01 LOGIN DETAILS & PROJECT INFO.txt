@@ -1,6 +1,6 @@
 
 
-**Database Name: ecom_store**
+
 
 **Developed by Yasser Dalouzi**
 

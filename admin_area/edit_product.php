@@ -108,11 +108,11 @@ $cat_title = $row_cat['cat_title'];
 
 <body>
 
-<div class="row">
+<div class="row"><!-- row Starts -->
 
-<div class="col-lg-12">
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<ol class="breadcrumb">
+<ol class="breadcrumb"><!-- breadcrumb Starts -->
 
 <li class="active">
 
@@ -120,20 +120,20 @@ $cat_title = $row_cat['cat_title'];
 
 </li>
 
-</ol>
+</ol><!-- breadcrumb Ends -->
 
-</div>
+</div><!-- col-lg-12 Ends -->
 
-</div>
+</div><!-- row Ends -->
 
 
-<div class="row">
+<div class="row"><!-- 2 row Starts --> 
 
-<div class="col-lg-12">
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<div class="panel panel-default">
+<div class="panel panel-default"><!-- panel panel-default Starts -->
 
-<div class="panel-heading">
+<div class="panel-heading"><!-- panel-heading Starts -->
 
 <h3 class="panel-title">
 
@@ -141,13 +141,13 @@ $cat_title = $row_cat['cat_title'];
 
 </h3>
 
-</div>
+</div><!-- panel-heading Ends -->
 
-<div class="panel-body">
+<div class="panel-body"><!-- panel-body Starts -->
 
-<form class="form-horizontal" method="post" enctype="multipart/form-data">
+<form class="form-horizontal" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
 
-<div class="form-group" >
+<div class="form-group" ><!-- form-group Starts -->
 
 <label class="col-md-3 control-label" > Product Title </label>
 
@@ -157,10 +157,10 @@ $cat_title = $row_cat['cat_title'];
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
 
-<div class="form-group" >
+<div class="form-group" ><!-- form-group Starts -->
 
 <label class="col-md-3 control-label" > Product Url </label>
 
@@ -178,9 +178,9 @@ Product Url Example : navy-blue-t-shirt
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-<div class="form-group" >
+<div class="form-group" ><!-- form-group Starts -->
 
 <label class="col-md-3 control-label" > Select A Manufacturer </label>
 
@@ -394,11 +394,11 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </li>
 
-</ul>
+</ul><!-- nav nav-tabs Ends -->
 
-<div class="tab-content">
+<div class="tab-content"><!-- tab-content Starts -->
 
-<div id="description" class="tab-pane fade in active">
+<div id="description" class="tab-pane fade in active"><!-- description tab-pane fade in active Starts -->
 
 <br>
 
@@ -408,10 +408,10 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </textarea>
 
-</div>
+</div><!-- description tab-pane fade in active Ends -->
 
 
-<div id="features" class="tab-pane fade in">
+<div id="features" class="tab-pane fade in"><!-- features tab-pane fade in Starts -->
 
 <br>
 
@@ -421,10 +421,10 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </textarea>
 
-</div>
+</div><!-- features tab-pane fade in Ends -->
 
 
-<div id="video" class="tab-pane fade in">
+<div id="video" class="tab-pane fade in"><!-- video tab-pane fade in Starts -->
 
 <br>
 
@@ -434,16 +434,16 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </textarea>
 
-</div>
+</div><!-- video tab-pane fade in Ends -->
 
 
-</div>
-
-</div>
+</div><!-- tab-content Ends -->
 
 </div>
 
-<div class="form-group" >
+</div><!-- form-group Ends -->
+
+<div class="form-group" ><!-- form-group Starts -->
 
 <label class="col-md-3 control-label" > Product Label </label>
 
@@ -453,9 +453,9 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-<div class="form-group" >
+<div class="form-group" ><!-- form-group Starts -->
 
 <label class="col-md-3 control-label" ></label>
 
@@ -465,17 +465,17 @@ echo "<option value='$cat_id'>$cat_title</option>";
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-</form>
+</form><!-- form-horizontal Ends -->
 
-</div>
+</div><!-- panel-body Ends -->
 
-</div>
+</div><!-- panel panel-default Ends -->
 
-</div>
+</div><!-- col-lg-12 Ends -->
 
-</div>
+</div><!-- 2 row Ends --> 
 
 
 

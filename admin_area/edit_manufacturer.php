@@ -40,11 +40,11 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 ?>
 
-<div class="row">
+<div class="row"><!-- 1 row Starts -->
 
-<div class="col-lg-12">
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<ol class="breadcrumb">
+<ol class="breadcrumb"><!-- breadcrumb Starts -->
 
 <li class="active">
 
@@ -52,34 +52,34 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 </li>
 
-</ol>
+</ol><!-- breadcrumb Ends -->
 
-</div>
+</div><!-- col-lg-12 Ends -->
 
-</div>
+</div><!-- 1 row Ends -->
 
 
-<div class="row">
+<div class="row"><!-- 2 row Starts -->
 
-<div class="col-lg-12">
+<div class="col-lg-12"><!-- col-lg-12 Starts -->
 
-<div class="panel panel-default">
+<div class="panel panel-default"><!-- panel panel-default Starts -->
 
-<div class="panel-heading">
+<div class="panel-heading"><!-- panel-heading Starts -->
 
-<h3 class="panel-title">
+<h3 class="panel-title"><!-- panel-title Starts -->
 
 <i class="fa fa-money fa-fw"> </i> Edit Manufacturer
 
-</h3>
+</h3><!-- panel-title Ends -->
 
-</div>
+</div><!-- panel-heading Ends -->
 
-<div class="panel-body">
+<div class="panel-body"><!-- panel-body Starts -->
 
-<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+<form class="form-horizontal" action="" method="post" enctype="multipart/form-data"><!-- form-horizontal Starts -->
 
-<div class="form-group">
+<div class="form-group"><!-- form-group Starts -->
 
 <label class="col-md-3 control-label"> Manufacturer Name </label>
 
@@ -89,9 +89,9 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-<div class="form-group">
+<div class="form-group"><!-- form-group Starts -->
 
 <label class="col-md-3 control-label"> Show as Top Manufacturers </label>
 
@@ -109,9 +109,9 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-<div class="form-group">
+<div class="form-group"><!-- form-group Starts -->
 
 <label class="col-md-3 control-label"> Select Manufacturer Image </label>
 
@@ -125,9 +125,9 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-<div class="form-group">
+<div class="form-group"><!-- form-group Starts -->
 
 <label class="col-md-3 control-label"> </label>
 
@@ -137,17 +137,17 @@ $new_m_image = $row_manufacturer['manufacturer_image'];
 
 </div>
 
-</div>
+</div><!-- form-group Ends -->
 
-</form>
+</form><!-- form-horizontal Ends -->
 
-</div>
+</div><!-- panel-body Ends -->
 
-</div>
+</div><!-- panel panel-default Ends -->
 
-</div>
+</div><!-- col-lg-12 Ends -->
 
-</div>
+</div><!-- 2 row Ends -->
 
 <?php
 

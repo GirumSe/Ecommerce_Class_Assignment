@@ -89,100 +89,100 @@ include("includes/main.php");
 
           <?php } ?>
 
-        </ul><!-- 
+        </ul><!-- nav nav-pills nav-stacked Ends -->
 
-</div><!-
+      </div><!-- box Ends -->
 
-      </div><!-- col-md-3 Ends -->
+    </div><!-- col-md-3 Ends -->
 
-        <div class="col-md-9"><!-- col-md-9 Starts -->
+    <div class="col-md-9"><!-- col-md-9 Starts -->
 
-          <div class="box"><!-- box Starts -->
+      <div class="box"><!-- box Starts -->
 
-            <div class="tab-content"><!-- tab-content Starts -->
+        <div class="tab-content"><!-- tab-content Starts -->
 
-              <?php
+          <?php
 
-              $get_terms = "select * from terms LIMIT 0,1";
+          $get_terms = "select * from terms LIMIT 0,1";
 
-              $run_terms = mysqli_query($con, $get_terms);
+          $run_terms = mysqli_query($con, $get_terms);
 
-              while ($row_terms = mysqli_fetch_array($run_terms)) {
+          while ($row_terms = mysqli_fetch_array($run_terms)) {
 
-                $term_title = $row_terms['term_title'];
+            $term_title = $row_terms['term_title'];
 
-                $term_desc = $row_terms['term_desc'];
+            $term_desc = $row_terms['term_desc'];
 
-                $term_link = $row_terms['term_link'];
+            $term_link = $row_terms['term_link'];
 
-              ?>
+          ?>
 
-                <div id="<?php echo $term_link; ?>" class="tab-pane fade in active"><!-- tab-pane fade in active Starts -->
+            <div id="<?php echo $term_link; ?>" class="tab-pane fade in active"><!-- tab-pane fade in active Starts -->
 
-                  <h1> <?php echo $term_title; ?> </h1>
+              <h1> <?php echo $term_title; ?> </h1>
 
-                  <p> <?php echo $term_desc; ?> </p>
+              <p> <?php echo $term_desc; ?> </p>
 
-                </div><!-- tab-pane fade in active Ends -->
+            </div><!-- tab-pane fade in active Ends -->
 
-              <?php } ?>
-
-
-              <?php
-
-              $count_terms = "select * from terms";
-
-              $run_count = mysqli_query($con, $count_terms);
-
-              $count = mysqli_num_rows($run_count);
-
-              $get_terms = "select * from terms LIMIT 1,$count";
-
-              $run_terms = mysqli_query($con, $get_terms);
-
-              while ($row_terms = mysqli_fetch_array($run_terms)) {
-
-                $term_title = $row_terms['term_title'];
-
-                $term_desc = $row_terms['term_desc'];
-
-                $term_link = $row_terms['term_link'];
-
-              ?>
-
-                <div id="<?php echo $term_link; ?>" class="tab-pane fade in"><!-- tab-pane fade in Starts -->
+          <?php } ?>
 
 
-                  <h1><?php echo $term_title; ?></h1>
+          <?php
 
-                  <p><?php echo $term_desc; ?></p>
+          $count_terms = "select * from terms";
+
+          $run_count = mysqli_query($con, $count_terms);
+
+          $count = mysqli_num_rows($run_count);
+
+          $get_terms = "select * from terms LIMIT 1,$count";
+
+          $run_terms = mysqli_query($con, $get_terms);
+
+          while ($row_terms = mysqli_fetch_array($run_terms)) {
+
+            $term_title = $row_terms['term_title'];
+
+            $term_desc = $row_terms['term_desc'];
+
+            $term_link = $row_terms['term_link'];
+
+          ?>
+
+            <div id="<?php echo $term_link; ?>" class="tab-pane fade in"><!-- tab-pane fade in Starts -->
 
 
-                </div><!-- tab-pane fade in Ends -->
+              <h1><?php echo $term_title; ?></h1>
 
-              <?php } ?>
-
-            </div><!-- tab-content Ends -->
-
-          </div><!-- box Ends -->
+              <p><?php echo $term_desc; ?></p>
 
 
-        </div><!-- col-md-9 Ends -->
+            </div><!-- tab-pane fade in Ends -->
 
-      </div><!-- container Ends -->
+          <?php } ?>
 
-    </div><!-- content Ends -->
+        </div><!-- tab-content Ends -->
 
-    <?php
+      </div><!-- box Ends -->
 
-    include("includes/footer.php");
 
-    ?>
+    </div><!-- col-md-9 Ends -->
 
-    <script src="js/jquery.min.js"> </script>
+  </div><!-- container Ends -->
 
-    <script src="js/bootstrap.min.js"></script>
+</div><!-- content Ends -->
 
-    </body>
+<?php
 
-    </html>
+include("includes/footer.php");
+
+?>
+
+<script src="js/jquery.min.js"> </script>
+
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

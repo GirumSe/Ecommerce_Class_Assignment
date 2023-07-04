@@ -76,7 +76,7 @@
 			</address>
 				<div class="phone">
 					Telephone:
-					<a class="phone__number" href="tel:0123456789">0123-456-789</a>
+					<a class="phone__number" href="tel:09123456789">09123456789</a>
 				</div>
 				<div class="email">
 					Email:

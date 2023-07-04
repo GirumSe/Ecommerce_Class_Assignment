@@ -1,9 +1,13 @@
+**Database Name: ecom_store**
+
+**Developed by BGAD**
+
+**Recommended PHP Version 5.6 and Newer**
 
 
+**Admin Panel: /admin_area **
 
+**Admin Login Details**
 
-
-**Recommended PHP Version 5.6 and 
-
-
-
+Username: admin@mail.com
+Password: Password@123
